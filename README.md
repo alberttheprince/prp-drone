@@ -19,3 +19,7 @@ Prp-drone is a FPV drone simulator based off Xinerki's [kgv-drone](https://githu
 **Credits**
 - Xinerki for creating the base resource
 - [Popcorn Roleplay](https://discord.gg/popcornroleplay) for Testing, come try out our Roleplay community
+- For the Animation (WIP)
+- xonoderax for the [controller model](https://sketchfab.com/3d-models/drone-controller-9e96f4019c6d4343b0f44b5f059b12a8)
+- LINE-O for the [FPV goggles](https://sketchfab.com/3d-models/rodin-fpv-goggles-38b8072a8e6f42628da206e5c83fea52)
+- zombie19994 for the [FPV drone model](https://sketchfab.com/3d-models/fpv-drone-3d-model-ce55bb643cb7491b87f4e4a042f9c1af)
