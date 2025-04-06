@@ -11,4 +11,4 @@ name 'prp-drone'
 client_script 'client.lua'
 
 
-data_file 'DLC_ITYP_REQUEST' 'stream/rpemotesreborn_props.ytyp'
+data_file 'DLC_ITYP_REQUEST' 'stream/prop_vrheadset_albert.ytyp'
