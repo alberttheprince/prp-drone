@@ -18,7 +18,7 @@ Prp-drone is a FPV drone simulator based off Xinerki's [kgv-drone](https://githu
 ---
 **Credits**
 - Xinerki for creating the base resource
+- [FalsehopeDesigns](https://falsehopedesigns.tebex.io/) for converting the headset to work with FiveM, [original model by Vitamin](https://sketchfab.com/3d-models/vr-headset-free-model-51b8dbff65e247979f068914f6197909)
 - [Popcorn Roleplay](https://discord.gg/popcornroleplay) for Testing, come try out our Roleplay community
-- Drone retextured by PrinceAlbert (replace texture for the Arena EMP drone)
 - For the Drone Operator Animation (WIP)
-- LINE-O for the [FPV goggles](https://sketchfab.com/3d-models/rodin-fpv-goggles-38b8072a8e6f42628da206e5c83fea52)
+- Drone retextured by PrinceAlbert (replace texture for the Arena EMP drone)
