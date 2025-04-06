@@ -207,7 +207,7 @@ RegisterCommand("drone", function(source, args)
 			Wait(fadetime)
 		
 			-- local model = `ch_prop_casino_drone_02a`
-			local model = args[1] or "ch_prop_casino_drone_02a"
+			local model = args[1] or "xs_prop_arena_drone_02"
 			-- local model = "rcbandito"
 			RequestModel(model)
 			repeat Wait(0) until HasModelLoaded(model)
