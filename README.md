@@ -4,11 +4,10 @@ Prp-drone is a FPV drone simulator based off Xinerki's [kgv-drone](https://githu
 
 
 **Features:**
-- Realistic Drone Model (WIP)
+- Reskinned EMP Drone
 - Explodes on contact (WIP)
 - Animation with custom props for operator while in use (WIP)
 - Realistic Static and Screen animations
-
 
 **Dependencies:**
 - ox_lib
