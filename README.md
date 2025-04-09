@@ -24,11 +24,8 @@ Additionally, we've modified the emp drone into a "C4 Drone" and provided a shoc
     weight = 15000,
     stack = false,
     close = true,
-    server = {
-        export = ''
-    },
     client = {
-        export = ''
+        export = 'prpdrone.usePoliceDrone'
     },
 },
 
@@ -37,11 +34,8 @@ Additionally, we've modified the emp drone into a "C4 Drone" and provided a shoc
     weight = 20000,
     stack = false,
     close = true,
-    server = {
-        export = ''
-    },
     client = {
-        export = ''
+        export = 'prpdrone.useDrone'
     },
 },
 
