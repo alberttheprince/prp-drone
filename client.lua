@@ -100,7 +100,7 @@ function RenderDroneHud()
 
 	-- exiting drone
 	if exiting > 0.0 then
-		local disp_exiting = math.pow(exiting * 10, 2) / math.pow(10, 2)
+		local disp_exiting = ((exiting*10)^2) / (10^2)
 		DrawGameText(0.5, 0.3, "EXITING", 255, 0, 0, math.floor(disp_exiting * 255), 0.75)
 		DrawRect(0.5 - (0.2 * 0.5) + (0.2 * disp_exiting * 0.5), 0.375, 0.2 * disp_exiting, 0.025, 255, 0, 0, 255)
 		DrawRectOutline(0.5, 0.375, 0.2, 0.025, 0.005, 0, 0, 0, 255)
