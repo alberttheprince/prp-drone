@@ -43,7 +43,7 @@ Additionally, we've modified the emp drone into a "C4 Drone" and provided a shoc
 
 ---
 **Credits**
-- Xinerki for creating the base resource
+- [Xinerki](https://github.com/Xinerki/) for creating the base resource
 - [FalsehopeDesigns](https://falsehopedesigns.tebex.io/) for converting the headset to work with FiveM, [original model by Vitamin](https://sketchfab.com/3d-models/vr-headset-free-model-51b8dbff65e247979f068914f6197909) - Please note the headset model is used under a [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/)
 - [Popcorn Roleplay](https://discord.gg/popcornroleplay) for Testing, come try out our Roleplay community
 - [Dark Animations](https://www.gta5-mods.com/users/Darks%20Animations) for the controller/base animation
