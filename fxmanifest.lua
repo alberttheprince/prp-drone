@@ -9,6 +9,6 @@ description 'A realistic and explosive drone resource'
 name 'prp-drone'
 
 client_script 'client.lua'
-
+shared_script "@ox_lib/init.lua"
 
 data_file 'DLC_ITYP_REQUEST' 'stream/prop_vrheadset_albert.ytyp'
