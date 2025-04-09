@@ -24,24 +24,6 @@ function DrawGameText(x, y, text, r, g, b, a, scale)
 	DrawText(x, y)
 end
 
-quips = {
-	"you deserve a medal for that",
-	"report this, i dare you",
-	"are you breaking it on purpose?",
-	"oh come on",
-	"this is why i drink",
-	"lol bruh",
-	"next time dont do what you just did",
-	"god left me unfinished",
-	"my planet needs me",
-	"bet you cant do that again",
-	"do that again, it wont break now, i promise"
-}
-
-function quip()
-	print(quips[math.random(1,#quips)])
-end
-
 function DrawRectOutline(x, y, width, height, thickness, r, g, b, a)
 	local tx = thickness/aspectRatio
 	local ty = thickness
@@ -352,7 +334,7 @@ RegisterCommand("drone", function(source, args)
 				
 				if #gforce > 5.0 then
 					-- if #gforce < 6.0 then
-						-- quip()
+						-- print("G Force is over 6")
 					-- end
 					if GetGameTimer() > lastbounce + 100 then
 						lastbounce = GetGameTimer()
@@ -401,7 +383,7 @@ RegisterCommand("drone", function(source, args)
 				
 				-- fallback for failing to return in-bounds
 				if dist > (maxDistance*1.5) or (returning and GetGameTimer() > return_start + 10000) then
-					quip()
+					-- print("over max distance")
 					-- AddExplosion(entpos.x, entpos.y, entpos.z, 0, 1.0, true, false, true)
 					Wait(500)
 					DoScreenFadeOut(500)
