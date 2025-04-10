@@ -448,9 +448,15 @@ function StopDrone()
     flying = false
 end
 
-exports('startDrone', StartDrone)
-exports('stopDrone', StopDrone)
+function ToggleDrone(args)
+    if flying then
+        StopDrone()
+    else
+        StartDrone(args)
+    end
+end
 
+exports('toggleDrone', ToggleDrone)
 
 ---- RegisterCommand("drone", function(source, args)
 --     StartDrone(args)
