@@ -182,7 +182,7 @@ return_start = 0
 
 exiting = 0
 
-RegisterCommand("drone", function(source, args)
+function StartDrone(args)
 	CreateThread(function()
 		if not flying then
 			DoScreenFadeOut(fadetime)
@@ -444,6 +444,18 @@ RegisterCommand("drone", function(source, args)
 	end)
 end)
 
-RegisterCommand("stopdrone", function()
-	flying = false
-end)
+function StopDrone()
+    flying = false
+end
+
+exports('startDrone', StartDrone)
+exports('stopDrone', StopDrone)
+
+
+---- RegisterCommand("drone", function(source, args)
+--     StartDrone(args)
+-- end)
+
+-- RegisterCommand("stopdrone", function()
+--     StopDrone()
+-- end)
