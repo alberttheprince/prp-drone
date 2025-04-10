@@ -25,7 +25,7 @@ Additionally, we've modified the emp drone into a "C4 Drone" and provided a shoc
     stack = false,
     close = true,
     client = {
-        export = 'prpdrone.usePoliceDrone'
+        export = 'prpdrone.togglePoliceDrone'
     },
 },
 
@@ -35,7 +35,7 @@ Additionally, we've modified the emp drone into a "C4 Drone" and provided a shoc
     stack = false,
     close = true,
     client = {
-        export = 'prpdrone.useDrone'
+        export = 'prpdrone.toggleDrone'
     },
 },
 
